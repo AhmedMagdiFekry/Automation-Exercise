@@ -1,0 +1,2 @@
+[INFO] - [13-10-2025 12:26:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test failed: validSignUpTCfailed
+[INFO] - [13-10-2025 12:26:49] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-13_12-26-47.html".

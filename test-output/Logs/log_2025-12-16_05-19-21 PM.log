@@ -1,0 +1,384 @@
+[DEBUG] - [16-12-2025 17:19:22] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Started.
+[ERROR] - [16-12-2025 17:19:23] [main] [com.automationexercices.FileUtils] - Error deleting file:  C:\Users\AhmedMagdi\IdeaProjects\TAFtest-output\Logs\Logs.log C:\Users\AhmedMagdi\IdeaProjects\TAFtest-output\Logs\Logs.log
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories cleaned.
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories created.
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [16-12-2025 17:19:23] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment properties set in: C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\allure-results
+[INFO] - [16-12-2025 17:19:24] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [16-12-2025 17:19:25] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [16-12-2025 17:19:25] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [16-12-2025 17:19:25] [main] [com.automationexercices.drivers.GUIDriver] - Browser selected: EDGE
+[INFO] - [16-12-2025 17:19:28] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com
+[INFO] - [16-12-2025 17:19:28] [main] [com.automationexercices.listeners.TestNGListeners] - Starting test: verifyErrorMessageWhenAccountCreatedBefore
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [16-12-2025 17:19:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.conn.BasicClientConnectionManager] - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.conn.DefaultClientConnectionOperator] - Connecting to automationexercise.com:443
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.client.protocol.RequestAddCookies] - CookieSpec selected: ignoreCookies
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.client.protocol.RequestAuthCache] - Auth cache not set in the context
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.client.protocol.RequestTargetAuthentication] - Target auth state: UNCHALLENGED
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.client.protocol.RequestProxyAuthentication] - Proxy auth state: UNCHALLENGED
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.client.DefaultHttpClient] - Attempt 1 to execute request
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.conn.DefaultClientConnection] - Sending request: POST /api_list/createAccount HTTP/1.1
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "POST /api_list/createAccount HTTP/1.1[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "Accept: */*[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "Content-Length: 309[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/24.0.2)[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> POST /api_list/createAccount HTTP/1.1
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> Accept: */*
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> Content-Length: 309
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> Host: automationexercise.com
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> Connection: Keep-Alive
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> User-Agent: Apache-HttpClient/4.5.13 (Java/24.0.2)
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - >> Accept-Encoding: gzip,deflate
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  >> "country=United%20States&address2=Apt%204B&city=90001&birth_month=August&address1=123%20Test%20St&birth_date=20&title=Mr&birth_year=2000&zipcode=California&password=P%40ssw0rd&name=Ahmed_Magdy&company=Automation%20Test&state=Los%20Angeles&mobile_number=1234567890&email=automationtest_1765898364923%40gmail.com"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "HTTP/1.1 404 Not Found[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Date: Tue, 16 Dec 2025 15:19:32 GMT[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Content-Type: text/html[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "x-powered-by: Phusion Passenger(R) 6.0.27[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "status: 404 Not Found[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "vary: Accept-Encoding[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ab%2Bx3oT9BBF38JPABURtVT4dNFJ8ZPrT3tP4yOCJJBj29%2F3cb4mtLAbhxl9%2FUU1iccTnCqKO3StPGZV9501LAxqtZHXlfoPz%2FweEA%2Ff9l8z%2BJWwDA6o%3D"}]}[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Server: cloudflare[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "cf-cache-status: DYNAMIC[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "CF-RAY: 9aef28d7fbfce278-MRS[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.conn.DefaultClientConnection] - Receiving response: HTTP/1.1 404 Not Found
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << HTTP/1.1 404 Not Found
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Date: Tue, 16 Dec 2025 15:19:32 GMT
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Content-Type: text/html
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Transfer-Encoding: chunked
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Connection: keep-alive
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << referrer-policy: same-origin
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << x-frame-options: DENY
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << x-content-type-options: nosniff
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << x-powered-by: Phusion Passenger(R) 6.0.27
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << status: 404 Not Found
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << vary: Accept-Encoding
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ab%2Bx3oT9BBF38JPABURtVT4dNFJ8ZPrT3tP4yOCJJBj29%2F3cb4mtLAbhxl9%2FUU1iccTnCqKO3StPGZV9501LAxqtZHXlfoPz%2FweEA%2Ff9l8z%2BJWwDA6o%3D"}]}
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Server: cloudflare
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << cf-cache-status: DYNAMIC
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << Content-Encoding: gzip
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << CF-RAY: 9aef28d7fbfce278-MRS
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.headers] - << alt-svc: h3=":443"; ma=86400
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.client.DefaultHttpClient] - Connection can be kept alive indefinitely
+[DEBUG] - [16-12-2025 17:19:32] [main] [io.restassured.internal.RestAssuredHttpBuilder] - Parsing response as: text/html
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "525[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xc5]X[0xef]n[0xdb]6[0x10][0xff][0xde][0xa7][0xe0][0x9c][0xad]h[0x8b][0xd8]r[0xba]4[0x1b]d[0xd9]C[0xdb]d[0x80],[0x9][0xb2]d@[0xbf][0xcc][0xa0][0xc9][0xb3][0xc5][0x95]"5[0x92]r[0xe2][0x15][0x3][0xf6][0x1a]{[0xbd]=[0xc9][0x8e][0x12]%[0xcb]^[0xf2]a[0x18][0xc0][0xc4]@$[0x91]w[0xbf][0xfb][0xc3][0xe3][0x91]w[0xd9]g[0xa7][0x97][0xef]o>\[0x9d][0x91][0xdc][0x15]r[0xf6],[0xf3][0xf]"[0xa9]ZM[0x7][0xa0][0x6]~[0x0]([0x9f]=#$+[0xc0]Q[0xa4]r[0xe5][0x10]~[0xab][0xc4]z:`Z9Pn[0xe8]6%[0xc]H[0xf8][0x9a][0xe][0x1c][0xdc][0xbb][0xc4][0xc3]L[0x8][0xcb][0xa9][0xb1][0xe0][0xa6][0x95][[0xe][0xbf][0x1e][0xd4](N8[0x9][0xb3]+[0xba][0x2][0xa2][0xb4]#K])N[0xa8]#[0x9]-[0xc5]\[\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[0xeb][0x12]f[0x80]:x[0xcb][0x18]N[0xb9],i[0x18]:[0x5][0x14]-`:0z[0xa1][0x9d][0xed][0x9][0xbd][0xb8][0xbc]8;[0xbc][0xb8]|{[0xfd][0xfe][0xfb][0x1f]~>kDY[0xb7][0x91]@[0xbc]vA)fm=Cjc[0xc9]+[0xf2][0x89][0x94][0x94]s[0xa1]V[0xe9]xB[\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "jVB[0xf9][0xb7]?j[0x9a][0x85][0xe6][0x9b][0x1d][0x9a][0xa3]qyO^[0xe3][0xbf]=[0x8a]=[0x9c][0xde][0xdc]'[0xb4]O[0xb9][0xd4][0x16]TJb[0xa9][0xb2]C[0xb]F,'dA[0xd9][0xc7][0x95][0xf1][0xb6][0xa7][0x7][0x0][0x80][0x9e][0xd2]R[0x9b][0xf4]`<[0xde][0x1][0x98]q[0xb1]F[0x90][0x85]6[0x1c][0xcc][0x10]Mv[0xba]H[0x8f]P[0xb][0xab][0xa5][0xe0][0xe4][0x80]s[0xde][0x92][0xe7]GA[0xda][0xf0][0xe][0xc4]*w[0xa9][0xd2][0x6][0xc5][0xb6]f[0xb5][0xcc][0xa3]c(z,[0xb6][0xa4][0xaa][0xe5][0xb3][0xe2]wHO[0xc6]_t[0xca][0x9c][0x9c][0x9c]L[0x1e][0x84]l[0xd8][0x1d]][0xa0]{[[0xed]pR[0xa1][0x1d]AUD[0x90][0xb4][0xb4][0x90][0x92][0xf6]mB[0xee][0x4]w9:[0xd1]K[0x8][0x8][0xfc][0x90][0xb8][0x1c]![0xd6]`[0x9c]`T[0xe][0xa9][0x14]+[0x95]:]N:[0x8f][0xbe]Fs[0xbf][0xdc][0xfa][0xbc][0xa6][0xf]P[0xaf][0xbd]-~e[0x3][0x9f][0xf1]Z[0xee][0xaa][0x1f]P[0x86][0xf5]T:z[0xb3][0xb5][0xfe]@[0xa8][0xa5][0xf6][0xea][0xf7][0x96]by[0xe2][0xbb][0x14]Z"Q[0x88][\r]2[0xf6][0x8][0xe4]x[0x1f][0x5]i[0xa4]h[0xfd][0xb8][0xa4][0x85][0x90][0x9b][0x94][0x14]Zi[0xf4]/[0x83][0x8e][0xd6]V[0x5][0x2]mv[0x85][0x92][0x83][0xe5][0x92]u$p_[0xe2][0xe6][0xa3]Nh[0xb5][0xa7][[0x1d]&[0xbb][0x91]@|@6~o[0xd8]K[0x3]#[0xb8]gPz[0xfe][0xf9][0x9a][0xca][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[0xf6][0xb5][0xea]Ga[0xe3](r[0xf0][0xe6]+[0xff][0x9b][0xf4][0xc2][0x80][0x1c]5[0xae]j[0xed][0xae]C[0x1c][0x1e][0x8d][0xb4],[0xa9][0xf7][0x17]f[0x88][0xa4]I[0x11]Y[0x1d][0xb1]~[0xc6]G[0xad][0xe0][0xd3]A[0xb0]7[0xec][0xb9],?[0xda][0xdf][0xf7][0x99][0x8f][0xbf][0xd9]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[0x8b][0xe3][0xf1][0xf1]K[0x84][0xf3][0xef][0x8]v[0xd4][0x90]7<M[0x90]1I[0xad][0x9d][0xe]|[0x2][0x8]`~[0xca][0xb4][0xaf][0xfe]#[0x9f]]cZ[0x2][0xeb][0xc8][0x8f][0xe0]r[0xcd]S[0xcc][0x1c]y[0x9f][0x80][0xcf][0xae].[0xba][0xc1]Q[0xde]!$[[0x88]G[0xd1]n[0xaf][0xcf][0x1f][0x80][0xf2]i[0xd0][0xa6]IB+\[0x87]z[0xb5][0xe0][0x1e][0xc][0x13][0x16]FL[0x17][0x8f][0xe7][0xb2][0x7]e?[0xb][0x3][0xde][0xd4][0xda][0x9]:p[0xc7][0x91]>[0xc8][0x6]=[0xb7][0xe0]T[0xd9]r[0xdf]Z[0x8c]o[0xdc][0x16][0xe0]U[0xc5]|[0xb8]$[0x1c][0x96]B[0x1]'B[0x91][0x8c]i[0xe][0xb3][0xad][0x96][0xf3]N[0xcd][0xca]H[0x9b]%[0xf5][0xf4]a@:[0xfd][0x15][0xd3][0xbe]&[0xce][0x8]dF@[C[0xe2][0x16]r[0xe][0x8c][0xb2][0x87][0x1e][0xd0][0xe5][0xc2][0x92]f[0xc3]w[0x96]t[0xaa]dZn[0xdd][0xd4][0xbd][0xe0][0xb8][0x14][0xb3][0xde][0xe7][0xce]\[0xf3]Gy!T[0xf2][0xaf][0xe1][0xc7][0x98][0xb2][0xa4][0x8f][0xf8][0x9f]$[0xc5][0x90][0xb1][0x2]7/[0x8d][0xe6][0x15][0xc3][0xa7]`[0xae]2[0x90]<[0x97]n"[0xf0],h[0xc7][0x5][0xbe]r[0x93][0x18][0xda][0xb4][0x12]9[0xee][0x1e]![0xed][0xd3]kbc[0xc8][0xf2]7[0x3][0x8a][0xd6]UQ[0xa4][0xe1])3wz[0xce][0xa8]qO[0xe8][0xdf][0xb5][0x80][0xbb]Z[0x87][0x18][0xc2]8Hp[0xf0][0xd4]&K[0x8d][0xe7]S[0xc]A[0x16]/[0x18]U[0x19]%[0x96][0x9a][0xd3]b[0xde][0x9c][0x1d]<[0x92][0x17]u[0x15]%jX[0xe][0xec]c$Y%[0xdd][0x14]X[0x1c]D[0xdc][0xc]a[0xe9]bH\[0x18][0xaa]x{[0xca]4I[0xdd]:[0x93][0xd6][0xc3][0xb1]6[0x1f][0xc3][0xf8]\i[0xb3][0xd9]U[0xc3]'[0x82]n&^&px[[0xc3]ld!N[0xc2][0xf]7[0xbc]([0xc1][0xa5][0xef][0x94][0xd4][0x94][0xcf][0x85]Zk[0xc1][0xb6]w[0x9][0x8d]u[0x13]V[0x96]sZ[0xf8][0xa8][0x8b]v[0x8a]7[0xdb]j[0xce][0xf1][0xd2][0xfb][0xc4][0xaa][0xac][0x5][0x7]=wx[0xbd]5[0x82][0xca]X[0xb][0x9f][0xb4][0xe1]~[0x1e])[0x0][0xbc][0xcc]zcG[0x95]h[0x81][0x1a][0x96]_5[0xb6][0xc6][0x12][0xba][0xf6][0x95][0xe9][0xe6]<[0xd6][0xa9][0xee]E[0xee][0xd4]h[0xb1][0x84]6[0x7]Fd[0xa1]U[0xc9][0xe3][[0x8a][0xc5][0xd0]-[0xf6][0x1b]N[0xeb][0xea][0xe3][0xdd][0xe6][0xac][0xc0]G[0xc][0xd9][0xed][0x89][0xe8][0xf7][0x8d].[0xe6][0xf8][0x8a]ur[0xac][0xc4][0xf4][0x8b]uXo[0xb3][0xe4][0xc5]7W^[0xf],[0xa1]s/z[0xf4][0xea][0xe5][0xe7][0xff]O|[0x96]lk[0xec]m[0xf]`[0x87][0xef][0x6][[0x1][0xac]2[0x6]s[0xb4][0xaf][0xdd][0xf3][0xc3][0xb6][0xb][0xf0]HSb[0xa7][0x7][0xd0]C[0xe2][0x82][0xab][0xbf][0xff][0xfc][0xcb]a[0x13][0xc8][0xb1][0x9c]P[0xb5]!z[0xd9][0xf4][0x5]F[0xfb][0xb5][0xff][0xb6]k[0xd1]o[[0xf4][0x9a]Ym[0xf][0xa8]S[0xf9][0x83][0xae][0x10][0xdc][0x0][0xb1][0x0]M[0x3][0x3][0x1b][0xb]`[0x8c]6d[0x1][0x8c]V[0xd8]|[0xd8][0xe8][0x8a][0xe4]t[\r]A[0xff][0xd3][0xb3]w[0xb7][0xdf][0x91])[0xb9]1[0x15][0x4][0xad]I[0x97]%[0x90][0xd6][0xb4][\r][0xc][0xec]8;[0x84][0xb4]d)$[0x8c][0xc8][0xfb][0x1c]G[0xb1][0xf][0x9c]c[0x97][0xd9][0xe9][0x0][0xf6]-[0x1e][0x17]-[0xca]![0xda][0xc6][0x3]s[0x80][0xbb][0x13][0xd8][0xb0][0xe5][0xc2][0xa2][0xfe][0x1b]B[0x9][0xae][0xa6][0xe2][0xd4]p[0x82][0x9d]*[0xf4][0xe9]*8 [0x98][0x1f],[0xcf][0x92][0xa6][0x1][0x96]%M+[0xfd][0x1f]p[0x8d][0xe9]i[[0x17][0x0][0x0]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "0[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.wire] -  << "[\r][\n]"
+[DEBUG] - [16-12-2025 17:19:32] [main] [io.restassured.internal.RestAssuredHttpBuilder] - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.conn.BasicClientConnectionManager] - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2fedae96
+[DEBUG] - [16-12-2025 17:19:32] [main] [org.apache.http.impl.conn.BasicClientConnectionManager] - Connection can be kept alive indefinitely
+[INFO] - [16-12-2025 17:19:33] [main] [com.automationexercices.apis.UserManagementAPI] - <html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Page not found at /api_list/createAccount</title>
+    <meta name="robots" content="NONE,NOARCHIVE"/>
+    <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+  </head>
+  <body>
+    <div id="summary">
+      <h1>
+Page not found         <span>(404)</span>
+      </h1>
+      <table class="meta">
+        <tr>
+          <th colspan="1" rowspan="1">Request Method:</th>
+          <td colspan="1" rowspan="1">POST</td>
+        </tr>
+        <tr>
+          <th colspan="1" rowspan="1">Request URL:</th>
+          <td colspan="1" rowspan="1">https://automationexercise.com/api_list/createAccount</td>
+        </tr>
+      </table>
+    </div>
+    <div id="info">
+      <p>
+
+      Using the URLconf defined in         <code>automation_exercise.urls</code>
+,
+      Django tried these URL patterns, in this order:
+            </p>
+      <ol>
+        <li>
+            
+                admin/
+                
+            
+          </li>
+        <li/>
+        <li>
+            
+                get_product_picture/&lt;int:product_id&gt;
+                
+            
+          </li>
+        <li>
+            
+                product_details/&lt;int:product_id&gt;
+                
+            
+          </li>
+        <li>
+            
+                products
+                
+            
+          </li>
+        <li>
+            
+                contact_us
+                
+            
+          </li>
+        <li>
+            
+                add_to_cart/&lt;int:product_id&gt;
+                
+            
+          </li>
+        <li>
+            
+                view_cart
+                
+            
+          </li>
+        <li>
+            
+                delete_cart/&lt;int:product_id&gt;
+                
+            
+          </li>
+        <li>
+            
+                login
+                
+            
+          </li>
+        <li>
+            
+                signup
+                
+            
+          </li>
+        <li>
+            
+                account_created
+                
+            
+          </li>
+        <li>
+            
+                logout
+                
+            
+          </li>
+        <li>
+            
+                checkout
+                
+            
+          </li>
+        <li>
+            
+                payment
+                
+            
+          </li>
+        <li>
+            
+                delete_account
+                
+            
+          </li>
+        <li>
+            
+                brand_products/&lt;str:brand&gt;
+                
+            
+          </li>
+        <li>
+            
+                category_products/&lt;int:category_id&gt;
+                
+            
+          </li>
+        <li>
+            
+                test_cases
+                
+            
+          </li>
+        <li>
+            
+                api_list
+                
+            
+          </li>
+        <li>
+            
+                download_invoice/&lt;int:overall_amount&gt;
+                
+            
+          </li>
+        <li>
+            
+                payment_done/&lt;int:overall_amount&gt;
+                
+            
+          </li>
+        <li>
+            
+                video_tutorials
+                
+            
+          </li>
+        <li>
+            
+                api/productsList
+                
+            
+          </li>
+        <li>
+            
+                api/brandsList
+                
+            
+          </li>
+        <li>
+            
+                api/searchProduct
+                
+            
+          </li>
+        <li>
+            
+                api/verifyLogin
+                
+            
+          </li>
+        <li>
+            
+                api/createAccount
+                
+            
+          </li>
+        <li>
+            
+                api/deleteAccount
+                
+            
+          </li>
+        <li>
+            
+                api/updateAccount
+                
+            
+          </li>
+        <li>
+            
+                api/getUserDetailByEmail
+                
+            
+          </li>
+        <li>
+            
+                &lt;str:random_string&gt;
+                
+            
+          </li>
+        <li>
+            
+                ^static/(?P&lt;path&gt;.*)$
+                
+            
+          </li>
+      </ol>
+      <p>
+
+        
+          The current path,         <code>api_list/createAccount</code>
+,
+        
+        didn’t match any of these.
+            </p>
+    </div>
+    <div id="explanation">
+      <p>
+
+      You’re seeing this error because you have         <code>DEBUG = True</code>
+ in
+      your Django settings file. Change that to         <code>False</code>
+, and Django
+      will display a standard 404 page.
+          </p>
+    </div>
+  </body>
+</html>
+[ERROR] - [16-12-2025 17:19:33] [main] [com.automationexercices.media.ScreenshotManager] - Error taking screenshot:  invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=143.0.3650.80)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e8c484cf02f0498218bd1ad0f73c58bd, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 143.0.3650.80, fedcm:accounts: true, goog:processID: 11832, ms:edgeOptions: {debuggerAddress: localhost:55391}, msedge: {msedgedriverVersion: 143.0.3650.80 (788579717f68..., userDataDir: C:\Users\AHMEDM~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55391/devtoo..., se:cdpVersion: 143.0.3650.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8c484cf02f0498218bd1ad0f73c58bd

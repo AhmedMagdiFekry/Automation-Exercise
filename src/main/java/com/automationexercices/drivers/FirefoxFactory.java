@@ -1,0 +1,67 @@
+package com.automationexercices.drivers;
+
+import com.automationexercices.utils.dataReader.PropertyReader;
+import com.automationexercices.utils.logs.LogsManager;
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.URI;
+
+public class FirefoxFactory extends AbstractDriver {
+
+    private FirefoxOptions getOptions(){
+
+        FirefoxOptions options = new FirefoxOptions();
+        options.addArguments("--start-maximized");//start Google maximized
+        options.addArguments("--disable-notifications");//disable notifications
+        options.addArguments("--disable-popup-blocking");//disable popup blocking
+        options.addArguments("--incognito");//open browser in incognito mode
+        options.addArguments("--disable-extensions");//disable extensions
+        options.addArguments("--disable-gpu");//disable GPU
+        options.setAcceptInsecureCerts(true); //accept insecure certificates
+        options.setPageLoadStrategy(PageLoadStrategy.EAGER); //set page load strategy to EAGER
+        FirefoxProfile profile = new FirefoxProfile();
+        options.setProfile(profile);
+        switch (PropertyReader.getProperty("executionType"))
+        {
+            case "LocalHeadless" -> options.addArguments("--headless=new");
+            case  "Remote" ->
+            {
+                options.addArguments("--disable-gpu");
+                options.addArguments("--disable-extensions");
+                options.addArguments("--headless=new");
+            }
+        }
+        options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+        return options;
+    }
+    @Override
+    public WebDriver createDriver() {
+
+        if(PropertyReader.getProperty("executionType").equalsIgnoreCase("Local")||
+                PropertyReader.getProperty("executionType").equalsIgnoreCase("Localheadless")){
+            return new FirefoxDriver(getOptions());
+        } else if (PropertyReader.getProperty("executionType").equalsIgnoreCase("Remote")) {
+            try
+            {
+                return new RemoteWebDriver(
+                        new URI("http:" + remoteHost + ":" + remotePort +"/wd/hub").toURL(),
+                        getOptions()
+                );
+            }catch (Exception e){
+                LogsManager.error("Error creating Remote WebDriver: " + e.getMessage());
+                throw new IllegalStateException("Error creating Remote WebDriver: " + e.getMessage());
+            }
+
+        }
+        else {
+            LogsManager.error("Execution Type not Supported: " + PropertyReader.getProperty("executionType"));
+            throw new IllegalStateException("Execution Type not Supported: " + PropertyReader.getProperty("executionType"));
+        }
+}
+}

@@ -1,0 +1,18 @@
+[DEBUG] - [13-10-2025 15:02:25] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [13-10-2025 15:02:25] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Started.
+[INFO] - [13-10-2025 15:02:26] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories cleaned.
+[INFO] - [13-10-2025 15:02:26] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [13-10-2025 15:02:26] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [13-10-2025 15:02:26] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories created.
+[INFO] - [13-10-2025 15:02:26] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [13-10-2025 15:02:26] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment properties set in: C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\allure-results
+[INFO] - [13-10-2025 15:02:27] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [13-10-2025 15:02:28] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [13-10-2025 15:02:28] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [13-10-2025 15:02:28] [main] [com.automationexercices.drivers.GUIDriver] - Browser selected: EDGE
+[INFO] - [13-10-2025 15:02:37] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com
+[INFO] - [13-10-2025 15:02:47] [main] [com.automationexercices.utils.actions.BrowserActions] - No extension tab opened, nothing to close.
+[INFO] - [13-10-2025 15:02:47] [main] [com.automationexercices.listeners.TestNGListeners] - Starting test: inValidRegisterationTC
+[INFO] - [13-10-2025 15:02:47] [main] [com.automationexercices.media.ScreenshotManager] - Screenshot taken:  C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\screenshots\passed-inValidRegisterationTC-2025-10-13_15-02-47.png

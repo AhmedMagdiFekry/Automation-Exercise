@@ -1,0 +1,7 @@
+[DEBUG] - [30-09-2025 15:54:23] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-09-2025 15:54:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Started.
+[INFO] - [30-09-2025 15:54:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories cleaned.
+[INFO] - [30-09-2025 15:54:24] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-09-2025 15:54:24] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-09-2025 15:54:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories created.
+[INFO] - [30-09-2025 15:54:24] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded.

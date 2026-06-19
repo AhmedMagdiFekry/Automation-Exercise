@@ -1,0 +1,17 @@
+[DEBUG] - [30-09-2025 16:10:58] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Started.
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories cleaned.
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories created.
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [30-09-2025 16:10:59] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment properties set in: C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\allure-results
+[INFO] - [30-09-2025 16:11:01] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [30-09-2025 16:11:01] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [30-09-2025 16:11:01] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [30-09-2025 16:11:01] [main] [com.automationexercices.drivers.GUIDriver] - Browser selected: CHROME
+[INFO] - [30-09-2025 16:11:06] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com
+[INFO] - [30-09-2025 16:11:06] [main] [com.automationexercices.listeners.TestNGListeners] - Starting test: signUpTC
+[INFO] - [30-09-2025 16:11:06] [main] [com.automationexercices.media.ScreenshotManager] - Screenshot taken:  C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\screenshots\passed-signUpTC-2025-09-30_16-11-06.png

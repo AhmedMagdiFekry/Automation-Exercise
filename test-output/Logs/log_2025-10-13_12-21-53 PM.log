@@ -1,0 +1,57 @@
+[DEBUG] - [13-10-2025 12:21:53] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Started.
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories cleaned.
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories created.
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [13-10-2025 12:21:54] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment properties set in: C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\allure-results
+[INFO] - [13-10-2025 12:21:56] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [13-10-2025 12:21:56] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[ERROR] - [13-10-2025 12:21:56] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data src\test\resources\test-dataregister-data.json (The system cannot find the file specified)
+[INFO] - [13-10-2025 12:21:56] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: chrome
+[INFO] - [13-10-2025 12:21:56] [main] [com.automationexercices.drivers.GUIDriver] - Browser selected: CHROME
+[INFO] - [13-10-2025 12:22:01] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com
+[INFO] - [13-10-2025 12:22:01] [main] [com.automationexercices.listeners.TestNGListeners] - Starting test: validSignUpTC
+[INFO] - [13-10-2025 12:22:02] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com/login
+[DEBUG] - [13-10-2025 12:22:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[ERROR] - [13-10-2025 12:22:02] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  name No results for path: $['name']
+[INFO] - [13-10-2025 12:22:02] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text:  into element: By.cssSelector: [data-qa='signup-name']
+[DEBUG] - [13-10-2025 12:22:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[ERROR] - [13-10-2025 12:22:02] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  email No results for path: $['email']
+[INFO] - [13-10-2025 12:22:02] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: 1760347322586@gmail.com into element: By.cssSelector: [data-qa='signup-email']
+[INFO] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  titleMale No results for path: $['titleMale']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  password No results for path: $['password']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  day No results for path: $['day']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  month No results for path: $['month']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  year No results for path: $['year']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  firstName No results for path: $['firstName']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  lastName No results for path: $['lastName']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  company No results for path: $['company']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  address1 No results for path: $['address1']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  address2 No results for path: $['address2']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  country No results for path: $['country']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  state No results for path: $['state']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  city No results for path: $['city']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  zipcode No results for path: $['zipcode']
+[DEBUG] - [13-10-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobile_number']
+[ERROR] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading JSON file register-data with jsonPath  mobile_number No results for path: $['mobile_number']
+[INFO] - [13-10-2025 12:22:03] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //input[@value='']
+[INFO] - [13-10-2025 12:22:13] [main] [com.automationexercices.media.ScreenshotManager] - Screenshot taken:  C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\screenshots\failed-validSignUpTC-2025-10-13_12-22-13.png

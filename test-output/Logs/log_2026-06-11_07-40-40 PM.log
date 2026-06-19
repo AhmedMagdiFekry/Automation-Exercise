@@ -1,0 +1,2 @@
+[INFO] - [11-06-2026 19:40:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test passed: verifyErrorMessageWhenAccountCreatedBeforepassed
+[INFO] - [11-06-2026 19:40:50] [main] [com.automationexercices.FileUtils] - Target File Path: "C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\reports\index.html", file was renamed to "AllureReport_2026-06-11_19-40-50.html".

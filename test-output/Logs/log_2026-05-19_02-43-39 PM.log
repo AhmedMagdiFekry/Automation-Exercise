@@ -1,0 +1,57 @@
+[DEBUG] - [19-05-2026 14:43:39] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [19-05-2026 14:43:40] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution Started.
+[ERROR] - [19-05-2026 14:43:41] [main] [com.automationexercices.FileUtils] - Error deleting file:  C:\Users\AhmedMagdi\IdeaProjects\TAFtest-output\Logs\Logs.log C:\Users\AhmedMagdi\IdeaProjects\TAFtest-output\Logs\Logs.log
+[INFO] - [19-05-2026 14:43:41] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories cleaned.
+[INFO] - [19-05-2026 14:43:41] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [19-05-2026 14:43:41] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [19-05-2026 14:43:41] [main] [com.automationexercices.listeners.TestNGListeners] - Test directories created.
+[INFO] - [19-05-2026 14:43:41] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded.
+[INFO] - [19-05-2026 14:43:41] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment properties set in: C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\allure-results
+[INFO] - [19-05-2026 14:43:53] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries downloaded and extracted.
+[INFO] - [19-05-2026 14:43:53] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\AhmedMagdi\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [19-05-2026 14:43:53] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [19-05-2026 14:43:53] [main] [com.automationexercices.drivers.GUIDriver] - Browser selected: EDGE
+[INFO] - [19-05-2026 14:44:02] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com
+[INFO] - [19-05-2026 14:44:03] [main] [com.automationexercices.listeners.TestNGListeners] - Starting test: validSignUpTC
+[INFO] - [19-05-2026 14:44:03] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to:  https://automationexercise.com/login
+[DEBUG] - [19-05-2026 14:44:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [19-05-2026 14:44:03] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: Ahmed_Magdy into element: By.cssSelector: [data-qa='signup-name']
+[DEBUG] - [19-05-2026 14:44:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [19-05-2026 14:44:04] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: automationtest_1779191033657@gmail.com into element: By.cssSelector: [data-qa='signup-email']
+[INFO] - [19-05-2026 14:44:04] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='signup-button']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [19-05-2026 14:44:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [19-05-2026 14:44:04] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //input[@value='Mr']
+[INFO] - [19-05-2026 14:44:04] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: P@ssw0rd into element: By.cssSelector: [data-qa="password"]
+[INFO] - [19-05-2026 14:44:05] [main] [com.automationexercices.utils.actions.ElementActions] - Selected from dropdown: 20 in element: By.id: days
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Selected from dropdown: August in element: By.id: months
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Selected from dropdown: 2000 in element: By.id: years
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.id: newsletter
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.id: optin
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: Ahmed into element: By.id: first_name
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: Magdy into element: By.id: last_name
+[INFO] - [19-05-2026 14:44:06] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: Automation Test into element: By.id: company
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: 123 Test St into element: By.id: address1
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: Apt 4B into element: By.id: address2
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Selected from dropdown: United States in element: By.id: country
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: California into element: By.id: state
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: Los Angeles into element: By.id: city
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: 90001 into element: By.id: zipcode
+[INFO] - [19-05-2026 14:44:07] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text: 1234567890 into element: By.id: mobile_number
+[INFO] - [19-05-2026 14:44:09] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa='create-account']
+[INFO] - [19-05-2026 14:44:09] [main] [com.automationexercices.media.ScreenshotManager] - Screenshot taken:  C:\Users\AhmedMagdi\IdeaProjects\TAF\test-output\screenshots\passed-validSignUpTC-2026-05-19_14-44-09.png
